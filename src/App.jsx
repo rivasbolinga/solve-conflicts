@@ -8,13 +8,15 @@ function App() {
     {
       name: 'Dish 1',
       description: 'Pasta bolognesa',
+      price: '$15.99',
     },
     {
       name: 'Dish 2',
+      description: 'Pizza Margharita',
       price: '$12.99',
     },
     {
-      name: 'Soups',
+      name: 'Dish 3',
       description: 'Soup.',
       price: '$18.99',
     },
@@ -24,7 +26,7 @@ function App() {
      <div>
        <header>
          <h1>Welcome to Tortilla Restaurant</h1>
-         
+         <p>Delicious dishes just a click away!</p>
        </header>
 
        <nav>
@@ -59,8 +61,8 @@ function App() {
          </section>
 
          <section>
-          
-           {/* <p>Learn more about our restaurant and story.</p> */}
+           <h2>About Us</h2>
+           <p>Learn more about our restaurant and story.</p>
          </section>
        </main>
 
